@@ -49,7 +49,7 @@ const About = () => {
 
           <div className="mt-12 flex flex-wrap justify-center gap-4">
             <button
-              onClick={() => navigate("/home")}
+              onClick={() => navigate("/navbar/home")}
               className="group flex items-center gap-2 rounded-xl bg-lime-400 px-6 py-3.5 font-semibold text-black transition hover:bg-lime-300"
             >
               Explore SkyMart
@@ -313,7 +313,7 @@ const About = () => {
               </p>
 
               <button
-                onClick={() => navigate("/home")}
+                onClick={() => navigate("/navbar/home")}
                 className="group mt-8 flex items-center gap-2 rounded-xl bg-black px-6 py-3.5 font-semibold text-white transition hover:bg-zinc-900"
               >
                 Start Shopping
