@@ -137,7 +137,7 @@ const Register = ()=> {
                 setTimeout(() => {
                   setFillAll(true);
                 }, 4000);
-              } else if (data.Password !== data.Conpassword) {
+              } else if (data.Password !== data.ConfirmPassword) {
                 setNotSame(false);
               } else {
                 setUserData((prev) => [...prev, data]);
